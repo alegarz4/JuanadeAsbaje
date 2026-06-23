@@ -1,0 +1,23 @@
+[
+  {
+    "titulo": "Logros académicos",
+    "fecha": "Próximamente",
+    "categoria": "ACADÉMICO",
+    "descripcion": "Compartiremos reconocimientos y proyectos destacados de nuestras y nuestros estudiantes.",
+    "imagen": ""
+  },
+  {
+    "titulo": "Arte, cultura y deporte",
+    "fecha": "Próximamente",
+    "categoria": "CULTURA",
+    "descripcion": "Actividades que fortalecen la creatividad, la salud y la convivencia escolar.",
+    "imagen": ""
+  },
+  {
+    "titulo": "Participación escolar",
+    "fecha": "Próximamente",
+    "categoria": "COMUNIDAD",
+    "descripcion": "Conoce las iniciativas que realizamos en colaboración con nuestra comunidad.",
+    "imagen": ""
+  }
+]

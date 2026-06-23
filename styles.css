@@ -98,6 +98,9 @@ h1 span { color: var(--red); }
 .abstract-three { background: var(--navy-2); }
 .abstract-three::before { border-width: 60px; border-color: var(--red); }
 .news-image span { position: relative; z-index: 2; font-family: "League Spartan"; font-size: 1.45rem; font-weight: 700; letter-spacing: .08em; }
+.news-image.has-photo { background-position: center; background-size: cover; }
+.news-image.has-photo::before { inset: 0; width: auto; height: auto; border: 0; border-radius: 0; background: linear-gradient(180deg, transparent 25%, rgba(7,23,63,.82)); }
+.news-image.has-photo::after { display: none; }
 .news-content { padding: 28px; }
 
 .events-layout { display: grid; grid-template-columns: .8fr 1.2fr; gap: 90px; }
@@ -138,6 +141,8 @@ footer { padding: 35px 0; color: white; background: #030b20; }
 .footer-brand img { width: 43px; height: 43px; border-radius: 50%; object-fit: cover; }
 .footer-brand div { display: grid; line-height: 1.2; }
 .footer-brand span { color: #aab3c9; }
+.admin-link { color: white; border-bottom: 1px solid var(--red); }
+.admin-link:hover, .admin-link:focus { color: #d8def0; }
 
 .reveal { opacity: 0; transform: translateY(25px); transition: opacity .6s ease, transform .6s ease; }
 .reveal.visible { opacity: 1; transform: none; }

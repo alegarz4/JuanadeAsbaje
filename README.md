@@ -23,6 +23,12 @@ GitHub mostrará la dirección pública del sitio después de unos minutos.
 
 ## Actualización
 
-El contenido principal está en `index.html`. Los avisos, noticias, eventos y
-enlaces de redes sociales marcados como “Próximamente” pueden sustituirse
-cuando la escuela tenga nueva información.
+El contenido se administra desde [Pages CMS](https://app.pagescms.org/):
+
+1. Iniciar sesión con la cuenta de GitHub `alegarz4`.
+2. Instalar o autorizar la aplicación para el repositorio `JuanadeAsbaje`.
+3. Elegir el área: avisos, noticias, eventos o datos generales.
+4. Guardar. GitHub Pages publicará el cambio automáticamente.
+
+La configuración del panel está en `.pages.yml` y la información editable en
+la carpeta `data/`.

@@ -1,0 +1,27 @@
+{
+  "nombre": "Escuela Secundaria No. 56 Mixta “Juana de Asbaje”",
+  "cct": "14EES0135G",
+  "direccion": "General Arteaga #326, Col. El Santuario, C.P. 44200",
+  "mapa": "https://www.google.com/maps/search/?api=1&query=General+Arteaga+326+El+Santuario+Guadalajara+Jalisco+44200",
+  "telefono": "33 36 14 37 26",
+  "telefono_enlace": "+523336143726",
+  "whatsapp": "33 34 44 90 04",
+  "whatsapp_enlace": "https://wa.me/523334449004",
+  "redes": [
+    {
+      "nombre": "Facebook",
+      "usuario": "Juana Asbaje 2025",
+      "enlace": "https://www.facebook.com/juana.asbaje.2025"
+    },
+    {
+      "nombre": "TikTok",
+      "usuario": "@secundariamixta56",
+      "enlace": "https://www.tiktok.com/@secundariamixta56"
+    },
+    {
+      "nombre": "YouTube",
+      "usuario": "@temaseducativosjuanadeasbaje",
+      "enlace": "https://www.youtube.com/@temaseducativosjuanadeasbaje"
+    }
+  ]
+}

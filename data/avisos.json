@@ -1,0 +1,20 @@
+[
+  {
+    "titulo": "Nuevo ciclo escolar",
+    "fecha": "Próximamente",
+    "descripcion": "En este espacio publicaremos fechas de inscripción, documentación y horarios de atención.",
+    "destacado": true
+  },
+  {
+    "titulo": "Comunicados oficiales",
+    "fecha": "Comunidad escolar",
+    "descripcion": "Los avisos importantes para madres, padres y tutores aparecerán en esta sección.",
+    "destacado": false
+  },
+  {
+    "titulo": "Fechas y actividades",
+    "fecha": "Alumnado",
+    "descripcion": "Recordatorios de entregas, reuniones, ceremonias y actividades académicas.",
+    "destacado": false
+  }
+]

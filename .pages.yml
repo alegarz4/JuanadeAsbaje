@@ -1,0 +1,145 @@
+media:
+  input: assets/uploads
+  output: assets/uploads
+  rename: safe
+  categories: [image]
+
+content:
+  - name: avisos
+    label: Avisos escolares
+    type: file
+    path: data/avisos.json
+    format: json
+    list: true
+    fields:
+      - name: titulo
+        label: Título
+        type: string
+        required: true
+      - name: fecha
+        label: Fecha o público
+        type: string
+        required: true
+      - name: descripcion
+        label: Descripción
+        type: text
+        required: true
+      - name: destacado
+        label: Mostrar como destacado
+        type: boolean
+        default: false
+
+  - name: noticias
+    label: Noticias y logros
+    type: file
+    path: data/noticias.json
+    format: json
+    list: true
+    fields:
+      - name: titulo
+        label: Título
+        type: string
+        required: true
+      - name: fecha
+        label: Fecha
+        type: string
+        required: true
+      - name: categoria
+        label: Categoría
+        type: string
+        required: true
+      - name: descripcion
+        label: Descripción
+        type: text
+        required: true
+      - name: imagen
+        label: Imagen
+        type: image
+        required: false
+
+  - name: eventos
+    label: Próximos eventos
+    type: file
+    path: data/eventos.json
+    format: json
+    list: true
+    fields:
+      - name: titulo
+        label: Nombre del evento
+        type: string
+        required: true
+      - name: dia
+        label: Día
+        type: string
+        required: true
+      - name: mes
+        label: Mes
+        type: string
+        required: true
+      - name: categoria
+        label: Categoría
+        type: string
+        required: true
+      - name: detalles
+        label: Horario y detalles
+        type: text
+        required: true
+
+  - name: escuela
+    label: Datos generales y redes
+    type: file
+    path: data/escuela.json
+    format: json
+    fields:
+      - name: nombre
+        label: Nombre oficial
+        type: string
+        required: true
+      - name: cct
+        label: CCT
+        type: string
+        required: true
+      - name: direccion
+        label: Dirección
+        type: string
+        required: true
+      - name: mapa
+        label: Enlace de Google Maps
+        type: string
+        required: true
+      - name: telefono
+        label: Teléfono visible
+        type: string
+        required: true
+      - name: telefono_enlace
+        label: Teléfono para marcar
+        type: string
+        required: true
+      - name: whatsapp
+        label: WhatsApp visible
+        type: string
+        required: true
+      - name: whatsapp_enlace
+        label: Enlace de WhatsApp
+        type: string
+        required: true
+      - name: redes
+        label: Redes sociales
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{nombre}: {usuario}"
+        fields:
+          - name: nombre
+            label: Red social
+            type: string
+            required: true
+          - name: usuario
+            label: Nombre visible
+            type: string
+            required: true
+          - name: enlace
+            label: Enlace completo
+            type: string
+            required: true
