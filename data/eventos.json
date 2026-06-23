@@ -11,13 +11,13 @@
     "dia": "01",
     "mes": "Julio",
     "categoria": "Docente",
-    "detalles": "7:00"
+    "detalles": "Horario por Confirmar"
   },
   {
-    "titulo": "Encuentro estudiantil",
-    "dia": "—",
-    "mes": "Próximo",
-    "categoria": "Cultura y deporte",
-    "detalles": "Fecha y horario por confirmar"
+    "titulo": "Taller de Formación Continua",
+    "dia": "02 y 03",
+    "mes": "Junio",
+    "categoria": "Capacitación",
+    "detalles": "horario por confirmar"
   }
 ]
