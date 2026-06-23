@@ -23,6 +23,6 @@ GitHub mostrará la dirección pública del sitio después de unos minutos.
 
 ## Actualización
 
-El contenido principal está en `index.html`. Los datos marcados como
-“Información por agregar” y “Próximamente” deben sustituirse por los datos
-oficiales de la escuela.
+El contenido principal está en `index.html`. Los avisos, noticias, eventos y
+enlaces de redes sociales marcados como “Próximamente” pueden sustituirse
+cuando la escuela tenga nueva información.
